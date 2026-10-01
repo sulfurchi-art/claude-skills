@@ -1,9 +1,9 @@
 {
   "name": "pixel-art",
-  "description": "用代码和字符画画像素画：在格子上规划，写出像素，用算法打光、描边、抖动，渲染后放大看图迭代。附零依赖工具 pixel.js（联系表、字符查看、GIF、参考图像素化）。",
-  "version": "1.0.0",
+  "description": "用代码画像素画、做像素特效。pixel-art-by-code：在格子上规划、写出像素、用算法打光描边、看图迭代；pixel-fx-by-code：爆炸、烟雾、魔法、受击火花等特效，靠模拟元素生成每一帧，附带预设生成器、检查图和精灵表导出。零依赖工具 pixel.js。",
+  "version": "1.1.0",
   "author": {
     "name": "sulfurchi-art"
   },
-  "keywords": ["pixel-art", "sprite", "像素画", "立绘", "表情差分"]
+  "keywords": ["pixel-art", "sprite", "vfx", "explosion", "像素画", "立绘", "表情差分", "像素特效", "爆炸"]
 }

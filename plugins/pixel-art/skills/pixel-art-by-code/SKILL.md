@@ -11,7 +11,8 @@ description: >-
   表情差分, sprites or sprite sheets, 像素动画, retro or game-style icons, wants a reference
   picture turned into clean pixel art, or wants expressions or frames added to existing
   sprites, even if they never say "pixel art" but want small, crisp retro images made
-  without an image-generation model.
+  without an image-generation model. Explosions, smoke, magic and other effects belong to
+  pixel-fx-by-code.
 ---
 
 # 用代码画像素画
@@ -115,6 +116,8 @@ function sprite(expr, { blink, talk, frame } = {}) { /* 身体 -> 打光 -> 细�
 - 位移：用缓动函数计算。
 
 `P.gif(file, frames, { fps, scale })` 输出 GIF，`P.strip(frames)` 输出条带图，用来检查跳帧。时序表和公式见 `references/animation.md`。
+
+爆炸、烟雾、魔法、受击火花这类特效，改用 pixel-fx-by-code 技能。它的做法是模拟元素来生成每一帧，并带有现成的生成器和检查图。
 
 ### 7. 交付
 
