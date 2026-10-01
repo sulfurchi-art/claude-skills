@@ -1,0 +1,14 @@
+{
+  "name": "sulfurchi-skills",
+  "description": "sulfurchi-art 的 Claude Code 技能合集",
+  "owner": {
+    "name": "sulfurchi-art"
+  },
+  "plugins": [
+    {
+      "name": "pixel-art",
+      "source": "./plugins/pixel-art",
+      "description": "用代码和字符画画像素画：角色、表情差分、图标、小动画，渲染后看图迭代；附零依赖工具 pixel.js。"
+    }
+  ]
+}
