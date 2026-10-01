@@ -32,7 +32,7 @@ claude plugin marketplace add sulfurchi-art/claude-skills
 claude plugin install pixel-art@sulfurchi-skills
 ```
 
-需要像素画时 Claude 会自动使用这个技能，也可以用 `/pixel-art:pixel-art-by-code` 手动调用。私有仓库要求本机能用 git 访问它，例如已经用 `gh auth login` 登录。
+需要像素画时 Claude 会自动使用这个技能，也可以用 `/pixel-art:pixel-art-by-code` 手动调用。
 
 **方式二：直接复制技能文件夹**
 
